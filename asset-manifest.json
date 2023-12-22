@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Karui-Auth/static/css/main.0a12f8fa.css",
+    "main.js": "/React-Karui-Auth/static/js/main.cffd9654.js",
+    "static/js/787.069e22cf.chunk.js": "/React-Karui-Auth/static/js/787.069e22cf.chunk.js",
+    "static/media/shiro2.png": "/React-Karui-Auth/static/media/shiro2.0ecf9a17a07931c42c6b.png",
+    "static/media/icon.png": "/React-Karui-Auth/static/media/icon.316d514f7fc4597862a4.png",
+    "index.html": "/React-Karui-Auth/index.html",
+    "main.0a12f8fa.css.map": "/React-Karui-Auth/static/css/main.0a12f8fa.css.map",
+    "main.cffd9654.js.map": "/React-Karui-Auth/static/js/main.cffd9654.js.map",
+    "787.069e22cf.chunk.js.map": "/React-Karui-Auth/static/js/787.069e22cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a12f8fa.css",
+    "static/js/main.cffd9654.js"
+  ]
+}
