@@ -2,7 +2,7 @@
   "name": "karui-auth",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Julian0066.github.io/React-Karui-Auth",
+  "homepage": "https://Julian0066.github.io/React-Karui-Auth",
   "dependencies": {
     "@mui/material": "^5.15.0",
     "@mui/styled-engine-sc": "^6.0.0-alpha.8",
