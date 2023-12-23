@@ -17,68 +17,9 @@ import React, { useState, useEffect } from 'react'
       }
     }, []);
   
-    const updateTaskForm = (taskData) => {
-      setTaskTitle(taskData.title || '');
-      setTaskDescription(taskData.description || '');
-      setTaskPriority(taskData.priority || 'Normal');
-    };
   
-    const handleAddOrUpdateTask = async (e) => {
-      e.preventDefault();
   
-      try {
-        const token = localStorage.getItem('token');
   
-        if (!token) {
-          console.error('Token de autorización no disponible');
-          return;
-        }
-  
-        const storedTaskId = localStorage.getItem('taskIdToUpdate');
-        const isUpdating = !!storedTaskId;
-  
-        const apiUrl = isUpdating
-          ? `${process.env.REACT_APP_AUTH_SERVER_URL}/tasks/${storedTaskId}` || `http://localhost:5000/tasks/${storedTaskId}`
-          : `${process.env.REACT_APP_AUTH_SERVER_URL}/tasks/`||'http://localhost:5000/tasks';
-  
-        const method = isUpdating ? 'PUT' : 'POST';
-  
-        const response = await fetch(apiUrl, {
-          method,
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${token}`,
-          },
-          body: JSON.stringify({
-            title: taskTitle,
-            description: taskDescription,
-            priority: taskPriority,
-          }),
-        });
-  
-        if (response.ok) {
-          if (isUpdating) {
-            console.log(`Tarea actualizada con ID: ${storedTaskId}`);
-          } else {
-            console.log('Tarea agregada exitosamente');
-          }
-  
-          window.location.href = '/dashboard';
-        } else {
-          const errorResponse = await response.json();
-          console.error(
-            `Error al ${isUpdating ? 'actualizar' : 'agregar'} tarea:`,
-            errorResponse.message
-          );
-        }
-      } catch (error) {
-        console.error('Error en la solicitud:', error);
-      } finally {
-        setTaskTitle('');
-        setTaskDescription('');
-        setTaskPriority('Normal');
-      }
-    };
 
     
   const [taskTitle, setTaskTitle] = useState('');

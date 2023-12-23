@@ -5,7 +5,7 @@ const SignIn = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const [token, setToken] = useState(null);
+  
 
   const handleSignIn = async () => {
     try {
