@@ -57,7 +57,7 @@ const Navigation = () => {
       {/* Utiliza un botón o un componente para manejar el evento de cerrar sesión */}
       <button
         onClick={logout}
-        className="text-white hover:text-gray-300 transition duration-300 px-4 py-2 border-b-2 border-transparent hover:border-blue-500 bg-red-600 rounded-md text-center"
+        className="text-white hover:text-gray-300 transition duration-300 px-4 py-2 border-b-2 border-transparent hover:border-blue-500 bg-red-600 rounded-md text-center text-sm"
       >
         Cerrar Sesión
       </button>
