@@ -66,6 +66,7 @@ const UpdateTaskForm = () => {
   return (
     <div className="bg-gray-800 text-white min-h-screen">
            <Navigation />
+           <div className="container mx-auto my-8">
     <form onSubmit={handleUpdateTask} className="bg-gray-800 text-white p-8 rounded shadow-md">
      
       <label className="block mb-4">
@@ -103,11 +104,12 @@ const UpdateTaskForm = () => {
 
       <button
         type="submit"
-        className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700"
+        className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 my-4"
       >
         Actualizar Tarea
       </button>
     </form>
+    </div>
     </div>
   );
 };

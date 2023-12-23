@@ -80,7 +80,7 @@ const handleUpdate = (taskId) => {
 const Dashboard = () => {
   
   return (
-    <div className="bg-gray-800 text-white min-h-screen">
+    <div className="bg-gray-800 text-white min-h-screen pb-1">
    
    <Navigation />
       <div className="container mx-auto my-8">

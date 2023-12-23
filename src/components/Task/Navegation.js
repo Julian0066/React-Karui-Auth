@@ -42,13 +42,13 @@ const Navigation = () => {
     <div className="flex items-center space-x-4">
       <Link
         to="/dashboard"
-        className="text-white hover:text-gray-300 transition duration-300 px-2 py-1 border-b-2 border-transparent hover:border-blue-500"
+        className="text-white hover:text-gray-300 transition duration-300 px-2 py-1 border-b-2 border-transparent hover:border-blue-500 text-center"
       >
         Mis Tareas
       </Link>
       <Link
         to="/add-task"
-        className="text-white hover:text-gray-300 transition duration-300 px-2 py-1 border-b-2 border-transparent hover:border-blue-500"
+        className="text-white hover:text-gray-300 transition duration-300 px-2 py-1 border-b-2 border-transparent hover:border-blue-500 text-center"
       >
         Agregar Tarea
       </Link>
@@ -57,7 +57,7 @@ const Navigation = () => {
       {/* Utiliza un botón o un componente para manejar el evento de cerrar sesión */}
       <button
         onClick={logout}
-        className="text-white hover:text-gray-300 transition duration-300 px-4 py-2 border-b-2 border-transparent hover:border-blue-500 bg-red-600 rounded-md"
+        className="text-white hover:text-gray-300 transition duration-300 px-4 py-2 border-b-2 border-transparent hover:border-blue-500 bg-red-600 rounded-md text-center"
       >
         Cerrar Sesión
       </button>

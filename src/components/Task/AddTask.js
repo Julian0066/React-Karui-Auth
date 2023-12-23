@@ -87,8 +87,8 @@ import React, { useState, useEffect } from 'react'
         <Navigation />
   
         <div className="container mx-auto my-8">
-          <h2 className="text-2xl font-bold mb-4">Agregar Tarea</h2>
-          <form onSubmit={handleAddTask}>
+      
+          <form className="bg-gray-800 text-white p-8 rounded shadow-md" onSubmit={handleAddTask}>
             <label className="block mb-4">
               <span className="text-gray-400">Título de la Tarea:</span>
               <input
@@ -124,7 +124,7 @@ import React, { useState, useEffect } from 'react'
   
             <button
               type="submit"
-              className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700"
+              className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 my-4"
             >
               Agregar Tarea
             </button>
