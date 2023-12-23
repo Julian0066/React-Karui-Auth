@@ -29,7 +29,7 @@ const SignIn = () => {
         localStorage.setItem('token', authToken);
   
         // Redirige al usuario a la página de dashboard u otra página después de agregar la tarea
-         window.location.href = '/dashboard';
+         window.location.href =  '/dashboard';
       } else {
         const errorMessage = await response.json();
         setError(errorMessage.message || 'Error en el inicio de sesión');

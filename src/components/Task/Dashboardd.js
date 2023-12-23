@@ -14,7 +14,7 @@ const handleUpdate = (taskId) => {
     localStorage.setItem('taskIdToUpdate', taskId);
 
     // Redirigir al usuario al formulario de updateTask
-    window.location.href = 'http://localhost:3000/update-task';
+    window.location.href = '/update-task';
   } catch (error) {
     console.error('Error en la solicitud:', error);
   }
