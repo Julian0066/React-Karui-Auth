@@ -9,7 +9,9 @@ const SignUp = () => {
 
   const handleSignUp = async () => {
     try {
-      const response = await fetch(`${process.env.REACT_APP_AUTH_SERVER_URL}/register` ||'http://localhost:5000/register', {
+      const response = await fetch(
+        // `${process.env.REACT_APP_AUTH_SERVER_URL}/register` ||
+        'http://localhost:5000/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -41,7 +43,7 @@ const SignUp = () => {
 
   return  (
     <div
-      className="flex flex-col items-center justify-center h-screen text-white"
+      className="flex flex-col items-center justify-center h-screen  text-white"
       style={{ backgroundImage: `url(${shiro})`, backgroundSize: 'cover' }}
     >
       <div className="max-w-sm w-full p-4 bg-gray-800 shadow-md mb-4">

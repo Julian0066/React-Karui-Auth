@@ -7,7 +7,9 @@ const Navigation = () => {
     try {
       const token = localStorage.getItem('token');
   
-      const response = await fetch(`${process.env.REACT_APP_AUTH_SERVER_URL}/logout` ||'http://localhost:5000/logout', {
+      const response = await fetch(
+        // `${process.env.REACT_APP_AUTH_SERVER_URL}/logout` ||
+        'http://localhost:5000/logout', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,

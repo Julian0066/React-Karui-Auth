@@ -39,7 +39,9 @@ const handleUpdate = (taskId) => {
     }
 
 
-    const response = await fetch(`${process.env.REACT_APP_AUTH_SERVER_URL}/deleteTask/${taskId}` ||`http://localhost:5000/deleteTask/${taskId}`, {
+    const response = await fetch(
+      // `${process.env.REACT_APP_AUTH_SERVER_URL}/deleteTask/${taskId}` ||
+      `http://localhost:5000/deleteTask/${taskId}`, {
       method: 'DELETE',
        headers: {
         'Content-Type': 'application/json',

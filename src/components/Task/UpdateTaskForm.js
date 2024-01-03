@@ -12,7 +12,9 @@ const UpdateTaskForm = () => {
       const storedTaskId = localStorage.getItem('taskIdToUpdate');
   
       // Hacer la solicitud al servidor para obtener los detalles de la tarea
-      fetch(`${process.env.REACT_APP_AUTH_SERVER_URL}/getTask/${storedTaskId}` || `http://localhost:5000/getTask/${storedTaskId}`, {
+      fetch(
+        // `${process.env.REACT_APP_AUTH_SERVER_URL}/getTask/${storedTaskId}` || 
+        `http://localhost:5000/getTask/${storedTaskId}`, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`,
@@ -35,7 +37,9 @@ const UpdateTaskForm = () => {
         const token = localStorage.getItem('token');
         const storedTaskId = localStorage.getItem('taskIdToUpdate');
   
-        const response = await fetch(`${process.env.REACT_APP_AUTH_SERVER_URL}/updateTask/${storedTaskId}` || `http://localhost:5000/updateTask/${storedTaskId}`, {
+        const response = await fetch(
+          // `${process.env.REACT_APP_AUTH_SERVER_URL}/updateTask/${storedTaskId}` || 
+          `http://localhost:5000/updateTask/${storedTaskId}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -65,7 +69,7 @@ const UpdateTaskForm = () => {
 
   return (
     <div className="bg-gray-800 text-white min-h-screen">
-           <Navigation />
+           <Navigation/>
            <div className="container mx-auto my-8">
     <form onSubmit={handleUpdateTask} className="bg-gray-800 text-white p-8 rounded shadow-md">
      

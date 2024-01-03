@@ -51,7 +51,9 @@ import React, { useState, useEffect } from 'react'
         return;
       }
   
-      const response = await fetch(`${process.env.REACT_APP_AUTH_SERVER_URL}/addTask` || 'http://localhost:5000/addTask', {
+      const response = await fetch(
+        // `${process.env.REACT_APP_AUTH_SERVER_URL}/addTask`|| 
+        'http://localhost:5000/addTask', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
