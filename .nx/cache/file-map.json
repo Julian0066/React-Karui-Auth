@@ -1,0 +1,445 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.8",
+  "deps": {
+    "@mui/material": "^5.15.0",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.8",
+    "@swc/helpers": "~0.5.2",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.21.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@nx/eslint": "17.2.8",
+    "@nx/eslint-plugin": "17.2.8",
+    "@nx/js": "17.2.8",
+    "@nx/react": "17.2.8",
+    "@nx/vite": "17.2.8",
+    "@nx/workspace": "17.2.8",
+    "@swc-node/register": "~1.6.7",
+    "@swc/cli": "~0.1.62",
+    "@swc/core": "~1.3.85",
+    "@testing-library/jest-dom": "^6.1.6",
+    "@testing-library/react": "14.0.0",
+    "@types/node": "18.14.2",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "~0.34.6",
+    "@vitest/ui": "~0.34.6",
+    "autoprefixer": "^10.4.16",
+    "eslint": "~8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "gh-pages": "^6.1.0",
+    "jest-watch-typeahead": "^2.2.2",
+    "jsdom": "~22.1.0",
+    "nx": "17.2.8",
+    "postcss": "^8.4.32",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.4.0",
+    "typescript": "4.9.5",
+    "vite": "^5.0.10",
+    "vitest": "^0.34.6",
+    "web-vitals": "^3.5.1"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "src/components/Task/UpdateTaskForm.jsx",
+        "hash": "5418999047852143899"
+      },
+      {
+        "file": "src/components/Auth/SignIn.jsx",
+        "hash": "13972061165762860901"
+      },
+      {
+        "file": "src/components/Task/Navegation.jsx",
+        "hash": "10379075328290100978"
+      },
+      {
+        "file": "src/components/Task/TaskList.jsx",
+        "hash": "7175538797597162121"
+      },
+      {
+        "file": "src/components/Task/Dashboardd.jsx",
+        "hash": "12819571686475253488"
+      },
+      {
+        "file": "src/components/Task/AddTask.jsx",
+        "hash": "11712293853116303684"
+      },
+      {
+        "file": "src/components/Auth/SignUp.jsx",
+        "hash": "11001630403630030484"
+      },
+      {
+        "file": ".env",
+        "hash": "4070502727191262655"
+      }
+    ],
+    "projectFileMap": {
+      "karui-auth": [
+        {
+          "file": ".editorconfig",
+          "hash": "5443105041930014821"
+        },
+        {
+          "file": ".env",
+          "hash": "16002767897615258112"
+        },
+        {
+          "file": ".eslintignore",
+          "hash": "7663861978715868291"
+        },
+        {
+          "file": ".eslintrc.json",
+          "hash": "17866138117546000433"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "4977186076035109311"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "16448050467312557263"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "16884713733442577066"
+        },
+        {
+          "file": "README.md",
+          "hash": "17524295600495787358"
+        },
+        {
+          "file": "build/_redirects",
+          "hash": "1043623441615875955"
+        },
+        {
+          "file": "build/asset-manifest.json",
+          "hash": "14689082629394938502"
+        },
+        {
+          "file": "build/favicon.ico",
+          "hash": "2949791817221603359"
+        },
+        {
+          "file": "build/index.html",
+          "hash": "11494482701391256145"
+        },
+        {
+          "file": "build/logo192.png",
+          "hash": "7585273181698778288"
+        },
+        {
+          "file": "build/logo512.png",
+          "hash": "9339365414554387981"
+        },
+        {
+          "file": "build/manifest.json",
+          "hash": "1447645250373428393"
+        },
+        {
+          "file": "build/robots.txt",
+          "hash": "2790380794362165217"
+        },
+        {
+          "file": "build/static/css/main.992e5120.css",
+          "hash": "13919102775940798412"
+        },
+        {
+          "file": "build/static/css/main.992e5120.css.map",
+          "hash": "12018296389074105184"
+        },
+        {
+          "file": "build/static/js/787.069e22cf.chunk.js",
+          "hash": "325284209223334008"
+        },
+        {
+          "file": "build/static/js/787.069e22cf.chunk.js.map",
+          "hash": "3851672886841793541"
+        },
+        {
+          "file": "build/static/js/main.dfde8ef6.js",
+          "hash": "5709226323563454848"
+        },
+        {
+          "file": "build/static/js/main.dfde8ef6.js.LICENSE.txt",
+          "hash": "17653826125583493528"
+        },
+        {
+          "file": "build/static/js/main.dfde8ef6.js.map",
+          "hash": "15571208625121731216"
+        },
+        {
+          "file": "build/static/media/icon.316d514f7fc4597862a4.png",
+          "hash": "15676634114391653856"
+        },
+        {
+          "file": "build/static/media/shiro2.0ecf9a17a07931c42c6b.png",
+          "hash": "2164182795909826149"
+        },
+        {
+          "file": "index.html",
+          "hash": "9863977302245678150"
+        },
+        {
+          "file": "nx.json",
+          "hash": "17367674567857578439"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "18108679872082124755"
+        },
+        {
+          "file": "package.json",
+          "hash": "9830689510104943423",
+          "deps": [
+            "npm:@mui/material",
+            "npm:@mui/styled-engine-sc",
+            "npm:@swc/helpers",
+            "npm:@testing-library/user-event",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom",
+            "npm:react-scripts",
+            "npm:styled-components",
+            "npm:@babel/plugin-proposal-private-property-in-object",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/js",
+            "npm:@nx/react",
+            "npm:@nx/vite",
+            "npm:@nx/workspace",
+            "npm:@swc-node/register",
+            "npm:@swc/cli",
+            "npm:@swc/core",
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@vitejs/plugin-react",
+            "npm:@vitest/coverage-v8",
+            "npm:@vitest/ui",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-config-react-app",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:gh-pages",
+            "npm:jest-watch-typeahead",
+            "npm:jsdom",
+            "npm:nx",
+            "npm:postcss",
+            "npm:prettier",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:vite",
+            "npm:vitest",
+            "npm:web-vitals"
+          ]
+        },
+        {
+          "file": "postcss.config.js",
+          "hash": "1579725330904862112"
+        },
+        {
+          "file": "project.json",
+          "hash": "6320029066710062158"
+        },
+        {
+          "file": "public/_redirects",
+          "hash": "1043623441615875955"
+        },
+        {
+          "file": "public/favicon.ico",
+          "hash": "2949791817221603359"
+        },
+        {
+          "file": "public/index.html",
+          "hash": "13308863839730475495"
+        },
+        {
+          "file": "public/logo192.png",
+          "hash": "7585273181698778288"
+        },
+        {
+          "file": "public/logo512.png",
+          "hash": "9339365414554387981"
+        },
+        {
+          "file": "public/manifest.json",
+          "hash": "1447645250373428393"
+        },
+        {
+          "file": "public/robots.txt",
+          "hash": "2790380794362165217"
+        },
+        {
+          "file": "src/App.css",
+          "hash": "3472201094699472689"
+        },
+        {
+          "file": "src/App.jsx",
+          "hash": "13317108200574104507",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "src/App.test.jsx",
+          "hash": "14776661775854159295",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "src/components/Auth/SignIn.jsx",
+          "hash": "3741169131524417059",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "src/components/Auth/SignUp.jsx",
+          "hash": "6797894712529103539",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "src/components/Auth/shiro.png",
+          "hash": "5169121822574985807"
+        },
+        {
+          "file": "src/components/Task/AddTask.jsx",
+          "hash": "12909167371508665765",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "src/components/Task/Dashboardd.jsx",
+          "hash": "11920339274156158802",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "src/components/Task/Navegation.jsx",
+          "hash": "3860829210158998695",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "src/components/Task/TaskList.jsx",
+          "hash": "11074219482266810931",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "src/components/Task/UpdateTaskForm.jsx",
+          "hash": "10759597125025454849",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "src/images/icon.png",
+          "hash": "15676634114391653856"
+        },
+        {
+          "file": "src/images/shiro2.png",
+          "hash": "2164182795909826149"
+        },
+        {
+          "file": "src/index.css",
+          "hash": "2172668849966456987"
+        },
+        {
+          "file": "src/index.jsx",
+          "hash": "2247195792079615155",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "src/logo.svg",
+          "hash": "5137778160416929466"
+        },
+        {
+          "file": "src/reportWebVitals.js",
+          "hash": "8937667725995285050",
+          "deps": [
+            [
+              "npm:web-vitals",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "src/setupTests.js",
+          "hash": "16903885983588411080",
+          "deps": [
+            "npm:@testing-library/jest-dom"
+          ]
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "1254979131349073941"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "4244282265515480311"
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "16936441711144470533"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "13784476790413232891"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "7166742611052085134"
+        },
+        {
+          "file": "vite.config.js",
+          "hash": "6331662220719220654",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ]
+    }
+  }
+}

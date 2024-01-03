@@ -10,7 +10,7 @@ const SignIn = () => {
   const handleSignIn = async () => {
     try {
       const response = await fetch(
-        //  `${process.env.REACT_APP_AUTH_SERVER_URL}/login` || 
+          `${import.meta.env.VITE_REACT_APP_AUTH_SERVER_URL}/login` || 
          'http://localhost:5000/login', {
         method: 'POST',
         headers: {

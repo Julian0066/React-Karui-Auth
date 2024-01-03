@@ -40,7 +40,7 @@ const handleUpdate = (taskId) => {
 
 
     const response = await fetch(
-      // `${process.env.REACT_APP_AUTH_SERVER_URL}/deleteTask/${taskId}` ||
+       `${import.meta.env.VITE_REACT_APP_AUTH_SERVER_URL}/deleteTask/${taskId}` ||
       `http://localhost:5000/deleteTask/${taskId}`, {
       method: 'DELETE',
        headers: {

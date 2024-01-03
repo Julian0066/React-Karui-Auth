@@ -52,7 +52,7 @@ import React, { useState, useEffect } from 'react'
       }
   
       const response = await fetch(
-        // `${process.env.REACT_APP_AUTH_SERVER_URL}/addTask`|| 
+         `${import.meta.env.VITE_REACT_APP_AUTH_SERVER_URL}/addTask`|| 
         'http://localhost:5000/addTask', {
         method: 'POST',
         headers: {

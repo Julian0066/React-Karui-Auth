@@ -13,7 +13,7 @@ const UpdateTaskForm = () => {
   
       // Hacer la solicitud al servidor para obtener los detalles de la tarea
       fetch(
-        // `${process.env.REACT_APP_AUTH_SERVER_URL}/getTask/${storedTaskId}` || 
+         `${import.meta.env.VITE_REACT_APP_AUTH_SERVER_URL}/getTask/${storedTaskId}` || 
         `http://localhost:5000/getTask/${storedTaskId}`, {
         method: 'GET',
         headers: {
@@ -38,7 +38,7 @@ const UpdateTaskForm = () => {
         const storedTaskId = localStorage.getItem('taskIdToUpdate');
   
         const response = await fetch(
-          // `${process.env.REACT_APP_AUTH_SERVER_URL}/updateTask/${storedTaskId}` || 
+           `${import.meta.env.VITE_REACT_APP_AUTH_SERVER_URL}/updateTask/${storedTaskId}` || 
           `http://localhost:5000/updateTask/${storedTaskId}`, {
           method: 'PUT',
           headers: {

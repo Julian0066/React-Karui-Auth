@@ -18,7 +18,7 @@ const TaskList = ({ onUpdate, onDelete}) => {
         }
 
         const response = await fetch(
-          // `${process.env.REACT_APP_AUTH_SERVER_URL}/tasks` || 
+           `${import.meta.env.VITE_REACT_APP_AUTH_SERVER_URL}/tasks` || 
           'http://localhost:5000/tasks', {
           headers: {
             'Authorization': `Bearer ${token}`,

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.992e5120.css",
+    "main.js": "./static/js/main.dfde8ef6.js",
+    "static/js/787.069e22cf.chunk.js": "./static/js/787.069e22cf.chunk.js",
+    "static/media/shiro2.png": "./static/media/shiro2.0ecf9a17a07931c42c6b.png",
+    "static/media/icon.png": "./static/media/icon.316d514f7fc4597862a4.png",
+    "index.html": "./index.html",
+    "main.992e5120.css.map": "./static/css/main.992e5120.css.map",
+    "main.dfde8ef6.js.map": "./static/js/main.dfde8ef6.js.map",
+    "787.069e22cf.chunk.js.map": "./static/js/787.069e22cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.992e5120.css",
+    "static/js/main.dfde8ef6.js"
+  ]
+}

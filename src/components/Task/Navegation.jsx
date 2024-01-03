@@ -8,7 +8,7 @@ const Navigation = () => {
       const token = localStorage.getItem('token');
   
       const response = await fetch(
-        // `${process.env.REACT_APP_AUTH_SERVER_URL}/logout` ||
+         `${import.meta.env.VITE_REACT_APP_AUTH_SERVER_URL}/logout` ||
         'http://localhost:5000/logout', {
         method: 'POST',
         headers: {

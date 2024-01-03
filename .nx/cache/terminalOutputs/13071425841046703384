@@ -1,0 +1,155 @@
+
+> karui-auth@0.1.0 test
+> nx exec -- vitest
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+[7m[1m[34m DEV [39m[22m[27m [34mv0.34.6[39m [90mD:/desarrollo web/Karui task crud/karui-auth[39m
+
+ [33m❯[39m src/App.test.jsx [2m ([22m[2m1 test[22m [2m|[22m [31m1 failed[39m[2m)[22m[90m 56[2mms[22m[39m
+[31m   [33m❯[31m src/App.test.jsx[2m > [22mrenders learn react link[39m
+[31m     → Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"flex flex-col items-center justify-center h-screen  text-white"[31m
+      [33mstyle[31m=[32m"background-image: url(/src/images/shiro2.png); background-size: cover;"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"max-w-sm w-full p-4 bg-gray-800 shadow-md mb-4"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex"[31m
+        [36m>[31m
+          [36m<h2[31m
+            [33mclass[31m=[32m"text-2xl font-bold mb-4"[31m
+          [36m>[31m
+            [0mRegistro[0m
+          [36m</h2>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-red-500 px-3 py-2"[31m
+          [36m/>[31m
+        [36m</div>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"w-full mb-2 p-2 bg-gray-700 text-white border border-gray-300"[31m
+          [33mplaceholder[31m=[32m"Nombre de Usuario"[31m
+          [33mtype[31m=[32m"text"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"w-full mb-4 p-2 bg-gray-700 text-white border border-gray-300"[31m
+          [33mplaceholder[31m=[32m"Contraseña"[31m
+          [33mtype[31m=[32m"password"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<button[31m
+          [33mclass[31m=[32m"w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-700"[31m
+        [36m>[31m
+          [0mRegistrarse[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<div>[31m
+        [36m<a[31m
+          [33mclass[31m=[32m"text-white text-sm hover:text-gray-300 transition duration-300 px-4 py-2 border-b-2 border-transparent hover:border-blue-500"[31m
+          [33mhref[31m=[32m"/signin"[31m
+        [36m>[31m
+          [0mIniciar sesión[0m
+        [36m</a>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[1m[7m Failed Tests 1 [27m[22m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/App.test.jsx[2m > [22mrenders learn react link
+[31m[1mTestingLibraryElementError[22m: Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"flex flex-col items-center justify-center h-screen  text-white"[31m
+      [33mstyle[31m=[32m"background-image: url(/src/images/shiro2.png); background-size: cover;"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"max-w-sm w-full p-4 bg-gray-800 shadow-md mb-4"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex"[31m
+        [36m>[31m
+          [36m<h2[31m
+            [33mclass[31m=[32m"text-2xl font-bold mb-4"[31m
+          [36m>[31m
+            [0mRegistro[0m
+          [36m</h2>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-red-500 px-3 py-2"[31m
+          [36m/>[31m
+        [36m</div>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"w-full mb-2 p-2 bg-gray-700 text-white border border-gray-300"[31m
+          [33mplaceholder[31m=[32m"Nombre de Usuario"[31m
+          [33mtype[31m=[32m"text"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"w-full mb-4 p-2 bg-gray-700 text-white border border-gray-300"[31m
+          [33mplaceholder[31m=[32m"Contraseña"[31m
+          [33mtype[31m=[32m"password"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<button[31m
+          [33mclass[31m=[32m"w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-700"[31m
+        [36m>[31m
+          [0mRegistrarse[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<div>[31m
+        [36m<a[31m
+          [33mclass[31m=[32m"text-white text-sm hover:text-gray-300 transition duration-300 px-4 py-2 border-b-2 border-transparent hover:border-blue-500"[31m
+          [33mhref[31m=[32m"/signin"[31m
+        [36m>[31m
+          [0mIniciar sesión[0m
+        [36m</a>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m   Start at [22m 20:18:46
+[2m   Duration [22m 1.39s[2m (transform 105ms, setup 128ms, collect 314ms, tests 56ms, environment 460ms, prepare 156ms)[22m
+
+
+[1m[7m[31m FAIL [39m[27m[22m[31m Tests failed. Watching for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/App.test.jsx:[2m6:30[22m[39m
+    [90m  4| [39mtest('renders learn react link', () => {
+    [90m  5| [39m  render(<App />);
+    [90m  6| [39m  const linkElement = screen.getByText(/learn react/i);
+    [90m   | [39m                             [31m^[39m
+    [90m  7| [39m  expect(linkElement).toBeInTheDocument();
+    [90m  8| [39m});
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯[22m[39m
+
+Error: Command failed: "vitest"
+[90m    at checkExecSyncError (node:child_process:887:11)[39m
+[90m    at execSync (node:child_process:959:15)[39m
+    at Object.nxExecCommand [90m(D:\desarrollo web\Karui task crud\karui-auth\[39mnode_modules\[4mnx[24m\src\command-line\exec\exec.js:33:38[90m)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+    at async Object.handler [90m(D:\desarrollo web\Karui task crud\karui-auth\[39mnode_modules\[4mnx[24m\src\command-line\exec\command-object.js:11:13[90m)[39m {
+  status: [33m1[39m,
+  signal: [1mnull[22m,
+  output: [ [1mnull[22m, [1mnull[22m, [1mnull[22m ],
+  pid: [33m15056[39m,
+  stdout: [1mnull[22m,
+  stderr: [1mnull[22m
+}

@@ -1,0 +1,17 @@
+
+> karui-auth@0.1.0 build
+> nx exec -- vite build
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[36mvite v5.0.10 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 46 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/karui-auth/[22m[32mindex.html                     [39m[1m[2m  0.45 kB[22m[1m[22m[2m │ gzip:  0.30 kB[22m
+[2mdist/karui-auth/[22m[32massets/icon-4L0VLquX.png       [39m[1m[2m203.28 kB[22m[1m[22m
+[2mdist/karui-auth/[22m[32massets/shiro2-ZYY3W8m4.png     [39m[1m[2m418.91 kB[22m[1m[22m
+[2mdist/karui-auth/[22m[35massets/index-HzQhOQzM.css      [39m[1m[2m  0.06 kB[22m[1m[22m[2m │ gzip:  0.06 kB[22m
+[2mdist/karui-auth/[22m[36massets/web-vitals-BptxjviT.js  [39m[1m[2m  7.08 kB[22m[1m[22m[2m │ gzip:  2.60 kB[22m
+[2mdist/karui-auth/[22m[36massets/index-N-M3j753.js       [39m[1m[2m176.95 kB[22m[1m[22m[2m │ gzip: 56.32 kB[22m
+[32m✓ built in 931ms[39m

@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run karui-auth:\"test\"",
+    "startTime": "2024-01-03T01:18:45.003Z",
+    "endTime": "2024-01-03T01:19:26.406Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "karui-auth:test",
+      "target": "test",
+      "projectName": "karui-auth",
+      "hash": "13071425841046703384",
+      "startTime": "2024-01-03T01:18:45.010Z",
+      "endTime": "2024-01-03T01:19:26.405Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
